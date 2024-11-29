@@ -1,5 +1,5 @@
 import styles from './Contatos.module.css'
-import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from 'react-icons/bs'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { GoMail } from 'react-icons/go'
 
 
@@ -10,6 +10,7 @@ function Contatos() {
                 <h2>//CONTATOS//</h2>
                 <h3>ENTRE EM CONTATO</h3>
                 <p>Bairro Havaí - Belo Horizonte <br />
+                    E-MAIL: amandanldc@gmail.com <br />
                     CEP 30555-190 – MG <br />
                     Cel: (31) 983351455 <br />
                     Solteira, brasileira 

@@ -1,6 +1,7 @@
 .titulo2 {
+    color: var(--lightpurple);
     padding-top: 5rem;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .textos {
@@ -11,12 +12,34 @@
 }
 
 .texto_grande, .texto_vermelho {
-    font-size: 300px;
+    font-size: 200px;
     color: var(--primary);
     font-weight: bold;
 }
 
 .texto_vermelho {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 550px){
+    .titulo2 {
+        text-align: center;
+        color: var(--lightpurple);
+        padding-top: 3rem;
+        font-size: 1.5rem;
+    }
+    
+    .textos {
+        text-align: center;
+    }
+    
+    .texto_grande, .texto_vermelho {
+        font-size: 80px;
+    }
+    
+    .texto_vermelho {
+        font-size: 1.8rem;
+        padding-bottom: 5rem;
+    }
 }

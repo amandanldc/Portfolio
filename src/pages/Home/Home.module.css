@@ -60,8 +60,9 @@
 
 @media only screen and (max-width: 550px){
     .home {
+        padding: auto;
         width: 100%;
-        min-height: 69vh;
+        min-height: 100%;
     
         display: flex;
         align-items: center;

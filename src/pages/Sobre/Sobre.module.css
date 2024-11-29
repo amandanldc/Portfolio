@@ -138,7 +138,7 @@
 @media only screen and (max-width: 550px){
     .sobre {
         width: 100%;
-        min-height: 85vh;
+        min-height: 100%;
     }
     
     .textos{    
@@ -225,6 +225,6 @@
     }
     
     .icones img {
-        height: 35px;
+        height: 25px;
     }
 }

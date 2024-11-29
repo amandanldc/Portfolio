@@ -45,8 +45,8 @@
 
 @media only screen and (max-width: 550px){
     .contatos {
-        padding: 1rem;
-        width: 99%;
+        padding: auto;
+        width: 100%;
         gap: 1.8rem;
     }
     
