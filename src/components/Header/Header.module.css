@@ -1,0 +1,72 @@
+.header {
+    background-color: var(--red);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 900;
+    font-size: 8rem;
+    margin-top: 10px;
+    letter-spacing: -6px;
+    color: var(--secondary);
+    transition: .2s;
+}
+
+.header p:hover{
+    color: var(--primary);
+}
+
+.header span{
+    color: var(--primary);
+    transition: .2s;
+}
+
+.header p:hover span{
+    color: var(--secondary);
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: var(--lightpurple);
+}
+
+.header a {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--terceary);
+    font-size: 2rem;
+    margin: .5% 5%;
+    letter-spacing: 5px;
+}
+
+.header a:hover {
+    transition: .2s;
+    color: var(--secondary);
+}
+
+@media only screen and (max-width: 550px){
+    
+    .header p {
+        font-size: 4.5rem;
+        letter-spacing: -6px;
+        margin-top: 10px;
+    }
+    
+    .header a {
+        font-size: 1.05rem;
+        margin: 1% 3%;
+        letter-spacing: 3px;
+    }
+    
+}
